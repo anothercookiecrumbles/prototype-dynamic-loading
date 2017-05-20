@@ -5,7 +5,9 @@ there are five files:
 2. `multiply.py` and `divide.py` -> the two modules that error while _trying_ to
    load, because they don't have the _calculate_ function.
 3. `validator.py` -> runs through validations before the module is loaded
-4. `app.py` -> the flask module
+4. `app.py` -> the flask module that is responsible for checking if modules are
+   valid, and if so, load them. If, on the other hand, the module isn't valid,
+   the user should see a sensible error message.
 
 To start the application, run the following commands in iTerm/Terminal/the
 terminal emulator of your choice:
