@@ -24,6 +24,9 @@ Once the modules are loaded, you can run some mathematical operations.
 e.g.: http://127.0.0.1:5000/subtract?a=1&b=2 should return -1. 
 Similarly, http://127.0.0.1:5000/add?a=1&b=2 should return 3. 
 
+If you attempt to run the above commands (add/subtract) before loading the
+modules, you'll get an error.
+
 There are a couple of assumptions here:
 1. The class name is the titlecase version of the module name (this won't
    necessarily be the case, but perhaps we can drive this off config?)
