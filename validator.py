@@ -29,7 +29,10 @@ def validate(filename):
   imported_class = getattr(imported_module, p.title())
   #use callable to distinguish between variables and functions.
   #only functions are callable
-  if not callable(imported_class.calculate):
-    print("function {} doesn't exist").format("calculate")
+  try:
+    if not callable(imported_class.calculate):
+      return "function {} doesn't exist".format("calculate")
+  except:
+    return "{} doesn't exist in module".format("calculate")
 
   return True
