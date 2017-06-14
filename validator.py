@@ -2,7 +2,7 @@ from importlib import import_module
 import os
 import sys
 
-class Validator:
+class Validator():
 
   def event():
     print("event")
