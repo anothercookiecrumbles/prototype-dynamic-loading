@@ -2,10 +2,13 @@ from importlib import import_module
 import os
 import sys
 
-class Validator():
+class Validator:
 
-  def event():
+  def event(self):
     print("event")
-  
-  def render():
+
+  def render(self):
     print("render")
+
+  def __init__(self, name):
+    self.name = name
