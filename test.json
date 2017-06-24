@@ -10,12 +10,6 @@
       "default": ""
     },
     {
-      "name": "world11",
-      "id_name" : "world11",
-      "type": "string",
-      "default": ""
-    },
-    {
       "name": "world3",
       "id_name" : "world3",
       "type": "string",
