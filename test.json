@@ -8,6 +8,12 @@
       "id_name" : "world",
       "type": "string",
       "default": ""
+    },
+    {
+      "name": "world2",
+      "id_name" : "world2",
+      "type": "string",
+      "default": ""
     }
   ]
 }
