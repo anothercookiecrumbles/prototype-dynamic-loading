@@ -1,11 +1,11 @@
 {
-  "name": "Boom",
-  "id_name": "boom" ,
+  "name": "Hello World",
+  "id_name": "hello_world" ,
   "category" : "Sources",
   "parameters": [
     {
-      "name": "URL",
-      "id_name" : "url",
+      "name": "world",
+      "id_name" : "world",
       "type": "string",
       "default": ""
     }
